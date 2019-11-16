@@ -46,7 +46,6 @@ symbol | operation
  \/ | Division
  \% | Modulo (Mod)
  \*\* | Exponentiation
- \^ |
  \/\/ | Division and rounding down
 
 
