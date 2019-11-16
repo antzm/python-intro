@@ -40,14 +40,14 @@ _Style Guidelines_
 
 symbol | operation
 -------|-----------
- + | Addition
- - | Subtraction
- * | Multiplication
- / | Division
- % | Modulo (Mod)
- ** | Exponentiation
- ^ |
- // | Division and rounding down
+ \+ | Addition
+ \- | Subtraction
+ \* | Multiplication
+ \/ | Division
+ \% | Modulo (Mod)
+ \*\* | Exponentiation
+ \^ |
+ \/\/ | Division and rounding down
 
 
 *Bitwise Operators*  
