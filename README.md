@@ -49,10 +49,40 @@ symbol | operation
  \/\/ | Division and rounding down
 
 
+ **Logical Operators**
+
+ symbol | operation
+ -------|----------
+ and | logical and
+ or | logical or
+ not | logical not
+
+
 **Bitwise Operators**  
 
 symbol | operation
 -------|-----------
-x & y | bitwise AND
-x \| y | bitwise OR
-x ^ y | bitwise exclusive OR (XOR)
+x & y | bitwise and
+x \| y | bitwise or
+x ^ y | bitwise exclusive or (XOR)
+
+**Declaring Variables**  
+
+x = 150  
+y = 350  
+z = x + y  
+print(z)  
+\#\# 500  
+
+x = 1  
+y = 2  
+z = 3  
+is equivalent to:  
+x, y, z = 1, 2, 3  
+
+
+
+
+
+
+
