@@ -38,7 +38,7 @@ _Style Guidelines_
 
 **Arithmetic Operators**
 
-symbol | operation
+Operator | Operation
 -------|-----------
  \+ | Addition
  \- | Subtraction
@@ -47,6 +47,18 @@ symbol | operation
  \% | Modulo (Mod)
  \*\* | Exponentiation
  \/\/ | Division and rounding down
+
+
+ **Comparison Operators**
+
+ Operator | Comparison
+-------|-----------
+x > y | greater than
+x < y | less than 
+x >= y | greater than or equal to
+x <= y | less than or equal to
+== | equal to
+!= | not equal to  
 
 
  **Logical Operators**
@@ -77,12 +89,22 @@ print(z)
 x = 1  
 y = 2  
 z = 3  
-is equivalent to:  
+\#\# is equivalent to:  
 x, y, z = 1, 2, 3  
 
 
+**Assignment Operators**
+
+* increase x by 1
+	* x = x +1
+	* x += 1
+* decrease y by 1
+	* y = y - 1
+	* y -= 1  
 
 
+**Naming Variables**
 
-
+* Using only lowercase letters
+* Using underscores to sepatate words
 
