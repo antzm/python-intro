@@ -101,6 +101,10 @@ x, y, z = 1, 2, 3
 * decrease y by 1
 	* y = y - 1
 	* y -= 1  
+* multiple x by 2
+	* x \*= 2
+* divide x by 2
+	* x /= 2
 
 
 **Naming Variables**
