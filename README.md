@@ -112,3 +112,13 @@ x, y, z = 1, 2, 3
 * Using only lowercase letters
 * Using underscores to sepatate words
 
+## Python Lists
+
+### Defining a List  
+
+my_first_list = [5, 8, 7, 15, 3, 10]  
+
+my_second_list = ['five', 'eight', 'seven', 'fifteen', 'three', 'ten']  
+
+my_third_list = [5, 'eight', 7, 'fifteen', 3, 'ten']  
+
