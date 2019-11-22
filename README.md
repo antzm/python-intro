@@ -29,12 +29,16 @@
 * Comparison
 * Logical
 
+**Whitespaces**
+* A block of code is denoted by increasing the identation
+* The end of a block of code is denoted by reducing the identation
+
 **Built-In Functions**
 * print(1+2) ## 3
 
 _Type Conversion_  
-_Whitespace_  
 _Style Guidelines_  
+
 
 **Arithmetic Operators**
 
@@ -102,8 +106,10 @@ x, y, z = 1, 2, 3
 	* y = y - 1
 	* y -= 1  
 * multiple x by 2
+	* x = x \* 2
 	* x \*= 2
 * divide x by 2
+	* x = x / 2
 	* x /= 2
 
 
@@ -121,4 +127,3 @@ my_first_list = [5, 8, 7, 15, 3, 10]
 my_second_list = ['five', 'eight', 'seven', 'fifteen', 'three', 'ten']  
 
 my_third_list = [5, 'eight', 7, 'fifteen', 3, 'ten']  
-
