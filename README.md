@@ -31,7 +31,26 @@
 
 **Whitespaces**
 * A block of code is denoted by increasing the identation
-* The end of a block of code is denoted by reducing the identation
+* The end of a block of code, is denoted by reducing the identation
+* The end of a statement is marked by a newline character
+	* For explicit continuation (extending many lines), the character \ can added at the end of each line
+	* Multiple line continuation is implied insided (), [], and {}
+
+**Comments**  
+* Comments in Python start with a \#
+* Multiple line comments:
+	* either by using \# in front of each line
+	* or by using triple quotes at the beggining and at the end of a comment
+
+**Docstrings**
+* Docstring stands for "Documentation String"
+* It is used to describe what a certain piece of code does
+* Docstrings are included in triple quotes
+* It is the first statement in:
+	* Functions
+	* Classes
+	* Modules
+	* Methods
 
 **Built-In Functions**
 * print(1+2) ## 3
