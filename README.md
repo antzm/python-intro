@@ -139,6 +139,8 @@ x, y, z = 1, 2, 3
 
 ## Python Lists
 
+Lists are ordered collections of items seperated by commas.
+
 ### Defining a List  
 
 my_first_list = [5, 8, 7, 15, 3, 10]  
@@ -146,3 +148,32 @@ my_first_list = [5, 8, 7, 15, 3, 10]
 my_second_list = ['five', 'eight', 'seven', 'fifteen', 'three', 'ten']  
 
 my_third_list = [5, 'eight', 7, 'fifteen', 3, 'ten']  
+
+### List indexing  
+
+The indexing starts at 0, so my_first_list[0] is 5 and my_first_list[4] is 3  
+
+There is also the option to use negative indexing, which has the advantage that we don't need to know the length of the list to access the last item.   
+
+Negative indexing starts from the right of the list with the value of -1.    
+i.e. my_first_list[-1] is 10, while my_first_list[-6] is 5.  
+
+## Python Tuples  
+
+Tuples are similar to lists. The are included between () and not [].  
+
+i.e. my_first_tuple = (5, 8, 7, 15, 3, 10)  
+
+The difference between list and tuplets is that lists are mutable while tuples are immutable, i.e. oncle declared, the tuples' values cannot be changed. 
+
+## Python Sets
+
+Sets are unordered collection of unique items included between {}, thus the indexing has no meaning in this case as the items are not ordered.    
+
+The items though are unique and thus, any duplicate values are automatically removed.  
+
+i.e. my_first_set = {10, 20, 10, 10, 10, 30, 20, 20, 30, 10, 20, 30}  
+
+\>\>\> my_first_set
+\# {10, 20, 30}
+
