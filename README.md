@@ -17,11 +17,17 @@
 * Python is case sensitive
 * In Python, spacing is important
 
-**Data Types**
-* Integers
-* Floats
+**Python Data Types**
+* Numbers
+	* Integers
+	* Floats
+	* Complex numbers
 * Booleans
 * Strings
+* Lists
+* Tuples
+* Sets
+* Dictionaries
 
 **Operators**
 * Arithmetic
