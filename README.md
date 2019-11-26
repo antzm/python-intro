@@ -183,3 +183,27 @@ i.e. my_first_set = {10, 20, 10, 10, 10, 30, 20, 20, 30, 10, 20, 30}
 \>\>\> my_first_set
 \# {10, 20, 30}
 
+## Python Dictionaries
+
+Pyhton dictionaries are unordered collections of "key: value" pairs and are included inside {}  
+i.e. my_python_dictionary = {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"]}  
+
+### Accessing values
+
+print(my_python_dictionary["name"])  
+\# Output: Merfys
+
+print(my_python_dictionary.get("name"))  
+\# Output: Merfys
+
+### Adding elements
+
+my_python_dictionary["color"] = "brown"  
+print(my_python_dictionary) 
+\# Output: {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"], "color": "brown"}
+
+### Changing elements
+
+my_python_dictionary["color"] = "brown white"  
+print(my_python_dictionary) 
+\# Output: {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"], "color": "brown white"}
