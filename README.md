@@ -7,7 +7,7 @@
 * Widely used in industry
 * Can be used in a great range of applications
 
-**Examples where Python can is used**  
+**Examples where Python is used**  
 * Web development
 * Data analysis
 * Machine learning
@@ -65,6 +65,26 @@ _Type Conversion_
 _Style Guidelines_  
 
 
+**Naming Variables**
+* Using only lowercase letters
+* Using underscores to sepatate words
+
+
+**Declaring Variables**  
+
+x = 150  
+y = 350  
+z = x + y  
+print(z)  
+\#\# 500  
+
+x = 1  
+y = 2  
+z = 3  
+\#\# is equivalent to:  
+x, y, z = 1, 2, 3  
+
+
 **Arithmetic Operators**
 
 Operator | Operation
@@ -107,20 +127,6 @@ x & y | bitwise and
 x \| y | bitwise or
 x ^ y | bitwise exclusive or (XOR)
 
-**Declaring Variables**  
-
-x = 150  
-y = 350  
-z = x + y  
-print(z)  
-\#\# 500  
-
-x = 1  
-y = 2  
-z = 3  
-\#\# is equivalent to:  
-x, y, z = 1, 2, 3  
-
 
 **Assignment Operators**
 
@@ -137,11 +143,6 @@ x, y, z = 1, 2, 3
 	* x = x / 2
 	* x /= 2
 
-
-**Naming Variables**
-
-* Using only lowercase letters
-* Using underscores to sepatate words
 
 ## Python Lists
 
@@ -170,7 +171,7 @@ Tuples are similar to lists. The are included between () and not [].
 
 i.e. my_first_tuple = (5, 8, 7, 15, 3, 10)  
 
-The difference between list and tuplets is that lists are mutable while tuples are immutable, i.e. oncle declared, the tuples' values cannot be changed. 
+The difference between list and tuplets is that lists are mutable while tuples are immutable, i.e. once declared, the tuples' values cannot be changed. 
 
 ## Python Sets
 
@@ -180,7 +181,7 @@ The items though are unique and thus, any duplicate values are automatically rem
 
 i.e. my_first_set = {10, 20, 10, 10, 10, 30, 20, 20, 30, 10, 20, 30}  
 
-\>\>\> my_first_set
+\>\>\> my_first_set  
 \# {10, 20, 30}
 
 ## Python Dictionaries
@@ -199,11 +200,11 @@ print(my_python_dictionary.get("name"))
 ### Adding elements
 
 my_python_dictionary["color"] = "brown"  
-print(my_python_dictionary) 
+print(my_python_dictionary)   
 \# Output: {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"], "color": "brown"}
 
 ### Changing elements
 
 my_python_dictionary["color"] = "brown white"  
-print(my_python_dictionary) 
+print(my_python_dictionary)   
 \# Output: {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"], "color": "brown white"}
