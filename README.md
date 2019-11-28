@@ -1,5 +1,7 @@
 # Learning Python
 
+**Download Python**
+* https://www.python.org/downloads/
 
 **Facts about Python**
 * General purpose language
@@ -64,13 +66,11 @@
 _Type Conversion_  
 _Style Guidelines_  
 
-
 **Naming Variables**
 * Using only lowercase letters
 * Using underscores to sepatate words
 
-
-**Declaring Variables**  
+## Declaring Variables
 
 x = 150  
 y = 350  
@@ -85,7 +85,7 @@ z = 3
 x, y, z = 1, 2, 3  
 
 
-**Arithmetic Operators**
+## Arithmetic Operators
 
 Operator | Operation
 -------|-----------
@@ -97,8 +97,7 @@ Operator | Operation
  \*\* | Exponentiation
  \/\/ | Division and rounding down
 
-
- **Comparison Operators**
+## Comparison Operators
 
  Operator | Comparison
 -------|-----------
@@ -110,7 +109,7 @@ x <= y | less than or equal to
 != | not equal to  
 
 
- **Logical Operators**
+## Logical Operators
 
  symbol | operation
  -------|----------
@@ -118,8 +117,7 @@ x <= y | less than or equal to
  or | logical or
  not | logical not
 
-
-**Bitwise Operators**  
+## Bitwise Operators  
 
 symbol | operation
 -------|-----------
@@ -127,8 +125,7 @@ x & y | bitwise and
 x \| y | bitwise or
 x ^ y | bitwise exclusive or (XOR)
 
-
-**Assignment Operators**
+## Assignment Operators
 
 * increase x by 1
 	* x = x +1
@@ -142,7 +139,6 @@ x ^ y | bitwise exclusive or (XOR)
 * divide x by 2
 	* x = x / 2
 	* x /= 2
-
 
 ## Python Lists
 
