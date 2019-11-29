@@ -204,3 +204,16 @@ print(my_python_dictionary)
 my_python_dictionary["color"] = "brown white"  
 print(my_python_dictionary)   
 \# Output: {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"], "color": "brown white"}
+
+## Functions
+
+```python
+def function name(parameters):
+	''' docstring explaining what 
+	the function does and is included
+	between triple quotes ```
+	statement(s)
+```
+**Two types of functions**  
+* Built-in functions
+* User defined functions
