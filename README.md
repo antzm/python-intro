@@ -205,13 +205,61 @@ my_python_dictionary["color"] = "brown white"
 print(my_python_dictionary)   
 \# Output: {"name": 'Merfys", species": "dog", "friends": ["Mpoumpou", "Pepita", "Gatoulis"], "color": "brown white"}
 
+
+## Python if...else statements
+
+**Using only if:**    
+
+```python
+if test condition:
+	# code to be executed
+```
+
+**Using if...else:**  
+
+```python
+if test condition:
+	# code to be executed
+else:
+	#code to be executed
+
+```
+
+**Using if...elif..else:**
+
+```python
+if test condition:
+	# code to be executed
+elif test condition:
+	#code to be executed
+else:
+	#code to be executed
+
+```
+
+**Using multiple elif (else if) statements**:
+
+```python
+if test condition:
+	# code to be executed
+elif test condition:
+	#code to be executed
+elif test condition:
+	#code to be executed
+elif test condition:
+	#code to be executed
+else:
+	#code to be executed
+
+```
+
 ## Functions
 
 ```python
 def function name(parameters):
-	''' docstring explaining what 
+	'''docstring explaining what 
 	the function does and is included
-	between triple quotes ```
+	between triple quotes '''
 	statement(s)
 ```
 **Two types of functions**  
