@@ -60,9 +60,6 @@
 	* Modules
 	* Methods
 
-**Built-In Functions**
-* print(1+2) ## 3
-
 _Type Conversion_  
 _Style Guidelines_  
 
@@ -265,3 +262,18 @@ def function name(parameters):
 **Two types of functions**  
 * Built-in functions
 * User defined functions
+
+### Built-in functions
+
+**The print() function:**
+* Sends output to e.g. screen
+* print(1+2)  
+	* Output: 3
+
+**The range() function:**
+
+* It generates a sequence of numbers
+	* range(5) creates a list with 5 numbers [0, 1, 2, 3, 4]  
+	* to print the list, we write print(list(range(5)))
+	* as print (range(5)) will only print: range(0, 5)
+	
