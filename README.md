@@ -3,6 +3,12 @@
 **Download Python**
 * https://www.python.org/downloads/
 
+**Python versions**
+* Python 2
+	* Older version, still used as many packages have not been updated to Python 3
+* Python 3
+	* Latest version
+
 **Facts about Python**
 * General purpose language
 * Powerful language
