@@ -256,6 +256,44 @@ else:
 
 ```
 
+## Python for Loop
+
+The for loop is used to iterate over iterable objects (e.g lists):  
+
+```python
+num_list = [1, 2, 3, 4, 5]
+
+for item in num_list:
+    print(item)
+
+# Output: 
+# 1 
+# 2 
+# 3 
+# 4 
+# 5
+```
+
+While iterating through iterable objects, we can perform logical and mathematical operations:   
+
+```python
+num_list = [1, 2, 3, 4, 5]
+
+for item in num_list:
+    if item % 2 == 0:
+        print(item, "is even")
+    else:
+        print(item, "is odd")
+
+# Output:
+# 1 is odd
+# 2 is even
+# 3 is odd
+# 4 is even
+# 5 is odd
+
+```
+
 ## Functions
 
 ```python
