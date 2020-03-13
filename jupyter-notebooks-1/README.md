@@ -20,9 +20,13 @@ We can insert three types of cell in a Jupyter Notebook:
 
 ## Markdown language
 
-Below there's an overview of the markdown syntax:
+In a Jupyter Nptebook, we type the Markdown syntax in a Markdown cell and then, we click to run the cell, so that the Markdown syntax will appear in it's correct form.
 
-(Firstly, the markdown syntax is shown in the highlighted window and then, just below, the output format appears)
+Should we need to make changes, we just click inside a Markdown cell and after we complete our changes, we click to run again the Markdown cell.
+
+Below there's an overview of the Markdown syntax.
+
+(Firstly, the Markdown syntax is shown in the highlighted window and then, just below, the output format appears)
 
 ## Headings:
 
@@ -208,4 +212,3 @@ https://www.google.com
 [GitHub](http://github.com)
 ```
 [GitHub](http://github.com)
-
