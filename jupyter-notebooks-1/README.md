@@ -2,7 +2,13 @@
 
 ## Jupyter Notebooks
 
-The easiest way to run Jupyter Notebooks on your computer, is to install the latest version of Anaconda. Choose the version which coresponds to your Operatinng System and install it using the default settings during the instalation.
+The easiest way to run Jupyter Notebooks on your computer, is to install the latest version of Anaconda. 
+
+**[Anaconda Main Page](https://www.anaconda.com)**  
+
+**[Anaconda Installer](https://www.anaconda.com/distribution/)**  
+
+Choose the version which coresponds to your Operatinng System and install it using the default settings during the instalation.
 
 When you want to run a Jupyter Notebook, you could either start the 'Anaconda Navigator' and select 'Jupyter Notebooks', or for a faster aproach, open the "Anaconda Promt" and type: jupyter notebook
 
