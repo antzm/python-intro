@@ -218,3 +218,10 @@ https://www.google.com
 [GitHub](http://github.com)
 ```
 [GitHub](http://github.com)
+
+## Images
+
+```
+![profile photo of a large brown and white dog named mefys](merfys.JPG)
+```
+![profile photo of a large brown and white dog named mefys](merfys.JPG)
