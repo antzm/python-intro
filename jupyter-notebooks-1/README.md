@@ -10,29 +10,29 @@ The easiest way to run Jupyter Notebooks on your computer, is to install the lat
 
 Choose the version which coresponds to your Operatinng System and install it using the default settings during the instalation.
 
-When you want to run a Jupyter Notebook, you could either start the 'Anaconda Navigator' and select 'Jupyter Notebooks', or for a faster aproach, open the "Anaconda Promt" and type: jupyter notebook
+Then, whenever you want to run a Jupyter Notebook, you could either start the "Anaconda Navigator" and select "Jupyter Notebooks", or for a faster aproach, open the "Anaconda Promt" and type: jupyter notebook
 
 After a few seconds, your default web-browser will open up automatically and a server will be running in the background.
 
-At this point, you could either open an existing Jupyter Notebook or altrenatively you could start from scratch and create a new Jupyter Notebook.
+At this point, you could either open an existing Jupyter Notebook or altrenatively, you could start from scratch and create a new Jupyter Notebook.
 
 ## Contents of a Jupyter Notebook
 
-We can insert three types of cell in a Jupyter Notebook:
+We can insert three types of cells in a Jupyter Notebook:
 
-* Cells with Markdown language in them
+* Cells that contain Markdown language
 * Cells that contain code to be executed 
-* Cells with Raw text that remains exactly as it was entered
+* Cells that contain Raw text which remains exactly as it was entered
 
 ## Markdown language
 
-In a Jupyter Nptebook, we type the Markdown syntax in a Markdown cell and then, we click to run the cell, so that the Markdown syntax will appear in it's correct form.
+In a Jupyter Notebook, we type the Markdown syntax in a Markdown cell and then, we click to run the cell, so that the Markdown syntax will appear in it's correct form.
 
-Should we need to make changes, we just click inside a Markdown cell and after we complete our changes, we click to run again the Markdown cell.
+Should we need to make changes, we just click inside a Markdown cell and as soon as we complete our changes, we click to run, once again the Markdown cell.
 
 Below there's an overview of the Markdown syntax.
 
-(Firstly, the Markdown syntax is shown in the highlighted window and then, just below, the output format appears)
+*(Firstly, the Markdown syntax is shown in the highlighted window and then, just below, the output format appears)*
 
 ## Headings:
 
