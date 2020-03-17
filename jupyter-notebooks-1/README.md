@@ -222,6 +222,34 @@ https://www.google.com
 ## Images
 
 ```
-![profile photo of a large brown and white dog named mefys](merfys.JPG)
+![profile photo of a large brown and white dog named merfys](merfys.JPG)
 ```
-![profile photo of a large brown and white dog named mefys](merfys.JPG)
+![profile photo of a large brown and white dog named merfys](merfys.JPG)
+
+
+## Clickable Images
+
+First, write the code for the link and then, the code for the image:
+
+```
+
+Link:
+[Merfy's GitHub Page](https://antzm.github.io/)
+
+Image:
+![Merfy's the dog looking at the camera](merfy.jpg)
+
+```
+
+Now, use the code for the link and replace whatever is inside the `[...]` with the full code of the image:
+
+```
+
+Clickable Image:
+[![Merfy's the dog looking at the camera](merfy.jpg)](https://antzm.github.io/)
+
+
+```
+
+[![Merfy's the dog looking at the camera](merfy.jpg)](https://antzm.github.io/)
+
