@@ -1,8 +1,8 @@
-# Example Jupyter Notebooks
+# Introduction to the Jupyter Notebooks
 
 ## Jupyter Notebooks
 
-The easiest way to run Jupyter Notebooks on your computer, is to install the latest version of Anaconda. 
+The easiest way to create a new Jupyter Notebook, or to open an existing one on your computer, is to install the latest version of Anaconda. 
 
 **[Anaconda Main Page](https://www.anaconda.com)**  
 
@@ -12,7 +12,7 @@ Choose the version which coresponds to your Operatinng System and install it usi
 
 Then, whenever you want to run a Jupyter Notebook, you could either start the "Anaconda Navigator" and select "Jupyter Notebooks", or for a faster aproach, open the "Anaconda Promt" and type: jupyter notebook
 
-After a few seconds, your default web-browser will open up automatically and a server will be running in the background.
+After a few seconds, your default web-browser will open up automatically, while a server will be running in the background.
 
 At this point, you could either open an existing Jupyter Notebook or altrenatively, you could start from scratch and create a new Jupyter Notebook.
 
@@ -229,7 +229,7 @@ https://www.google.com
 
 ## Clickable Images
 
-First, write the code for the link and then, the code for the image:
+First, we write the code for the link and then, the code for the image:
 
 ```
 
