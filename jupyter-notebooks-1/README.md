@@ -243,6 +243,8 @@ Image:
 
 Now, use the code for the link and replace whatever is inside the `[...]` with the full code of the image:
 
+i.e. Just replace the link description "Merfy's GitHub Page" with the image. So, a clickable link is just using an image to describe a link, instead of using traditional text.
+
 ```
 
 Clickable Image:
