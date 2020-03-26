@@ -12,3 +12,9 @@ Depending on the processing power needed, we could choose the appropriate instan
 
 By default, only the basic instance types are available and thus, in order to use a more powerful instance type we need to request an instance type increase by submiting the appropriate request to the AWS customer support.
 
+## Machine Learning and Deep Learning using SageMaker
+
+Jupyter Notebooks can also be used to train a machine learning or a deep learning model using SageMaker.
+
+For faster training, there are also GPU instances available, while the ml.p2.xlarge is the smaller available GPU instance.
+
