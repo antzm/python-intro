@@ -18,3 +18,12 @@ Jupyter Notebooks can also be used to train a machine learning or a deep learnin
 
 For faster training, there are also GPU instances available, while the ml.p2.xlarge is the smaller available GPU instance.
 
+In case someone prefers to rather use CPU training, then the recomened instance types are:
+
+* ml.c4.2xlarge
+* ml.c5.2xlarge
+
+CPU training though, would take more time for a model to be trained.
+
+Obviously the choise would also depend on the kind of data we are using to create our machine learning or deep learning model.
+
