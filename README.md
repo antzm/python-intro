@@ -1,3 +1,12 @@
+*This repo contains a few basic things on Python, Jupyter Notebooks and the AWS Amazon SageMaker.*
+
+* *Python intro*
+
+* [*Jupyter Notebooks intro*](/jupyter-notebooks-1/README.md)
+
+* [*AWS Amazon SageMaker intro*](sage-maker.md)
+
+
 # Learning Python
 
 **Download Python**
