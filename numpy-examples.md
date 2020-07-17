@@ -29,3 +29,28 @@ print(matrix)
 # [[1 2 3 4 5 6 7 8 9]
 #  [1 2 3 4 5 6 7 8 9]]
 ```
+### Scalars, Vectors, Matrices
+
+* Creating a Scalar *
+
+```python
+scalar = np.array(1)
+scalar.shape
+# ()
+```
+
+* Creating a Vector *
+
+```python
+vector = np.array([1,2,3])
+vector.shape
+# (3,)
+```
+
+* Creating a Matrix *
+
+```python
+matrix = np.array([[1,2,3], [4,5,6], [7,8,9]])
+matrix.shape
+# (3, 3)
+```
