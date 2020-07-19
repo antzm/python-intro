@@ -57,11 +57,17 @@ matrix.shape
 
 ### Arrays with random numbers
 
-* Array with random numbers from 0 (inclusive) to 1 (exclusive)
+* Array with random numbers from 0 (inclusive) to 1 (exclusive) *
 
 ```python
 array = np.random.rand(10)
 ```
+
+* Matix 5x5 with random numbers from 0 (inclusive) to 1 (exclusive) *
+```python
+matrix = np.random.rand(5, 5)
+```
+
 
 * Array with random integrs from min_nun (inclusive) to max_num (exclusive)
 
@@ -71,4 +77,26 @@ max_num = 100
 arr_size = 10
 
 array = np.random.randint(min_num, max_num, size)
+```
+
+* Matrix 5x5 with random integrs from min_nun (inclusive) to max_num (exclusive)
+
+```python
+min_num = 1
+max_num = 100
+matrix_size = (5, 5)
+
+matrix = np.random.randint(min_num, max_num, matrix_size)
+```
+
+* Array with random numbers [0, 1) that follow the Noraml Distribution *
+
+```python
+array = np.random.randn(10)
+```
+
+* Matrix 5x5 with random numbers [0, 1) that follow the Noraml Distribution *
+
+```python
+array = np.random.randn(5, 5)
 ```
