@@ -100,3 +100,26 @@ array = np.random.randn(10)
 ```python
 array = np.random.randn(5, 5)
 ```
+
+### Creating special vectors and matrices
+
+**Vector and matrix with zeros**
+
+```python
+np.zeros(5)
+np.zeros((3,5))
+```
+
+**Vector and matrix with ones**
+
+```python
+np.ones(5)
+np.ones((3,5))
+```
+
+**Eye matrix (square)**
+
+```python
+np.eye(3)
+np.eye(5)
+```
