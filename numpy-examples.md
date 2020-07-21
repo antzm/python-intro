@@ -123,3 +123,14 @@ np.ones((3,5))
 np.eye(3)
 np.eye(5)
 ```
+
+### Respaping Matrices
+
+* Creating a vector and reshaping it to various matrices
+
+```python
+original_vector = np.arrange(18)
+new_matrix = original_vector.respape(3,6)    # note 3*6=18
+newer_matrix = original_vector.respape(2,9)  # note 2*9=18
+matrix_3d = original_vector.reshape(2,3,3)   # note 2*3*3=18
+```
