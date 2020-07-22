@@ -134,3 +134,16 @@ new_matrix = original_vector.respape(3,6)    # note 3*6=18
 newer_matrix = original_vector.respape(2,9)  # note 2*9=18
 matrix_3d = original_vector.reshape(2,3,3)   # note 2*3*3=18
 ```
+
+### Matrix calculations
+
+```python
+a = np.arange(16).reshape(4,4)
+b = np.arangr(16).reshape(4,4)
+
+matrix_sum = a + b
+matrix_subtract = a - b
+matrix_multiply = a * b
+matrix_divide = a / b
+```
+
