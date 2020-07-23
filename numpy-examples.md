@@ -68,7 +68,6 @@ array = np.random.rand(10)
 matrix = np.random.rand(5, 5)
 ```
 
-
 * Array with random integrs from min_nun (inclusive) to max_num (exclusive)
 
 ```python
@@ -147,3 +146,18 @@ matrix_multiply = a * b
 matrix_divide = a / b
 ```
 
+## Creating arrays and matrices using linspace()
+
+**6 equally distributed values from 1 to 6**
+
+```python
+matrix = np.linspace(1, 6, 6)
+matrix
+```
+ 
+**100 equally distributed values from 1 to 100**
+
+```python
+matrix = np.linspace(1,100)
+matrix
+```
