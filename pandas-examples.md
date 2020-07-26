@@ -30,3 +30,17 @@ column_labels = 'C1 C2 C3 C4 C5 C6'.split()  # splitting the column names to C1,
 data_frame = pd.DataFrame(matrix, row_labels, column_labels) # Creating the DatFrame
 data_frame
 ```
+## Adding columns to a DataFrame
+
+```python
+# Adding a new column that contains the sum of all the columns
+data_frame['column_sum'] = df['C1']+df['C2']+df['C3']+df['C4']+df['C5']+df['C6']
+```
+## Removing a column from a DataFrame
+
+```python
+data_frame.drop('column_sum',axis=1,inplace=True)
+# axis=1 refers to columns, while axis=0 refers to rows
+# inplace=True removes the original column
+# inplace=False retains the original column
+```
