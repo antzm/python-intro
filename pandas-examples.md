@@ -44,3 +44,20 @@ data_frame.drop('column_sum',axis=1,inplace=True)
 # inplace=True removes the original column
 # inplace=False retains the original column
 ```
+
+## Conditional Selection from a DataFrame
+
+**Example 1**
+
+```python
+# Keeps only the items of the data frame which are greater than 10
+# The rest of the items, are replaced with NaN values
+data_frame[data_frame > 10]
+```
+
+**Example 2**
+```python
+# Keeps only the items of the data frame which are are not equal to 10
+# The items thar are equal to 10, are replaced with NaN values
+data_frame[data_frame != 10]
+```
